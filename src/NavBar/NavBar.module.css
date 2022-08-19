@@ -1,0 +1,15 @@
+.nav-bar {
+    display: flex;
+    background: #23a2ac;
+    padding: 10px -10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 120px;
+    margin-right: 1rem;
+}
+
+:global(.button).nav-button {
+    margin-left: 1rem;
+}
